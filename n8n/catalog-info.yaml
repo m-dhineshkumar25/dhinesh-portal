@@ -5,6 +5,7 @@ metadata:
   description: Workflow automation tool
   annotations:
     jenkins.io/job-full-name: n8n-deploy  # 👈 Replace with your actual Jenkins job name
+    backstage.io/kubernetes-id: n8n       # 👈 Required for Kubernetes plugin
 spec:
   type: service
   lifecycle: production
